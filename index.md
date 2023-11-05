@@ -21,8 +21,7 @@ The image above shows a failure-inducing input for the buggy program of ArrayExa
 
 The code block above shows the test that fails to the buggy program.
 
-
-
+![Image](Lab3Pass.png) 
 
 The image above shows an input that doesn't induce failure to the buggy program. The JUNIT test shows that these tests pass the methods.
 
