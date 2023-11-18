@@ -110,8 +110,7 @@ find ./technical/biomed
 ./technical/biomed/ar331.txt
 ./technical/biomed/ar319.txt
 ~~~
-![Image](find-name.png) 
-The above image shows the use of the find command with the path of the directory for the biomed directory, which is -type d for directory type. The command is used to show the content of the directories such as the files within the biomed directory. This is helpful to find the content of the directory that you want to know more about or find files within the biomed directory.
+The above code shows the use of the find command with the path of the directory for the biomed directory, which is -type d for directory type. The command is used to show the content of the directories such as the files within the biomed directory. This is helpful to find the content of the directory that you want to know more about or find files within the biomed directory.
 Cited source: https://tecadmin.net/linux-find-command-with-examples/
 
 ~~~
@@ -130,24 +129,21 @@ find ./technical/911report
 ./technical/911report/chapter-7.txt
 ./technical/911report/chapter-9.txt
 ~~~
-![Image](find-name2.png) 
-The above image shows the use of the find command with the path of the directory for the 911report directory, which is -type d for directory type. The command is used to show the content of the directories such as the files within the 911report directory. This is helpful to find the content of the directory that you want to know more about or find files within the 911report directory.
+The above code shows the use of the find command with the path of the directory for the 911report directory, which is -type d for directory type. The command is used to show the content of the directories such as the files within the 911report directory. This is helpful to find the content of the directory that you want to know more about or find files within the 911report directory.
 Cited source: https://tecadmin.net/linux-find-command-with-examples/ 
 
 ~~~
 find ./technical/biomed/1468-6708-3-1.txt
 ./technical/biomed/1468-6708-3-1.txt
 ~~~
-![Image](find-typef.png) 
-The above image show the use of the find command with the path of the file name for the biomed directory, which is type f for file type. The command is used to search and show the content of the called file. This is helpful to search for a specific file in the biomed directory to see if it exists.
+The above code show the use of the find command with the path of the file name for the biomed directory, which is type f for file type. The command is used to search and show the content of the called file. This is helpful to search for a specific file in the biomed directory to see if it exists.
 Cited source: https://tecadmin.net/linux-find-command-with-examples/
 
 ~~~
 find ./technical/911report/chapter-1.txt 
 ./technical/911report/chapter-1.txt
 ~~~
-![Image](find-typef2.png) 
-The above image show the use of the find command with the path of the file name for the 911report directory, which is type f for file type. The command is used to search and show the content of the called file. This is helpful to search for a specific file in the 911report directory to see if it exists.
+The above code show the use of the find command with the path of the file name for the 911report directory, which is type f for file type. The command is used to search and show the content of the called file. This is helpful to search for a specific file in the 911report directory to see if it exists.
 Cited source: https://tecadmin.net/linux-find-command-with-examples/
 
 ~~~
@@ -165,8 +161,7 @@ find ./technical/biomed/ -size -100k
 ./technical/biomed//1471-2199-2-10.txt
 ./technical/biomed//1471-2202-2-9.txt
 ~~~
-![Image](find-size.png) 
-The above image show the use of the find command with another command of a size where this line of command finds files within the called directory a specified size such as finding content with the size of 100KB. This line of command is called on the biomed directory where the command specified content with the size of 100KB and the output files with the size of 100 KB. This is helpful for finding file sizes that are not too big or small for your preference.
+The above code show the use of the find command with another command of a size where this line of command finds files within the called directory a specified size such as finding content with the size of 100KB. This line of command is called on the biomed directory where the command specified content with the size of 100KB and the output files with the size of 100 KB. This is helpful for finding file sizes that are not too big or small for your preference.
 Cited source: https://tecadmin.net/linux-find-command-with-examples/
 
 ~~~
@@ -180,8 +175,7 @@ find ./technical/911report/ -size -100k
 ./technical/911report//chapter-10.txt
 ./technical/911report//chapter-11.txt
 ~~~
-![Image](find-size2.png) 
-The above images show the use of the find command with another command of a size where this line of command finds files within the called directory of a specified size such as finding content with the size of 100KB. This line of command is called on the 911report directory  where the command specified content with the size of 100KB and the output files with the size of 100 KB. This is helpful for finding file sizes that are not too big or small for your preference.
+The above code show the use of the find command with another command of a size where this line of command finds files within the called directory of a specified size such as finding content with the size of 100KB. This line of command is called on the 911report directory  where the command specified content with the size of 100KB and the output files with the size of 100 KB. This is helpful for finding file sizes that are not too big or small for your preference.
 Cited source: https://tecadmin.net/linux-find-command-with-examples/
 
 ~~~
@@ -198,8 +192,7 @@ find ./technical/biomed/ -mtime -10
 ./technical/biomed//1471-2466-1-1.txt
 ./technical/biomed//1471-2199-2-10.txt
 ~~~
-![Image](find-time.png) 
-The above image show the use of the find command with another command of time where this line of command finds files that are modified within the last 10 days within the called directory. The line of command is called on the biomed directory where the command specified content that was modified in the last 10 days and the output is files that have been modified within the last 10 days. This is helpful for finding files when you don't know the exact name but you know approximately when you modified it.
+The above code show the use of the find command with another command of time where this line of command finds files that are modified within the last 10 days within the called directory. The line of command is called on the biomed directory where the command specified content that was modified in the last 10 days and the output is files that have been modified within the last 10 days. This is helpful for finding files when you don't know the exact name but you know approximately when you modified it.
 Cited source: https://tecadmin.net/linux-find-command-with-examples/
 
 ~~~
@@ -216,8 +209,8 @@ find ./technical/911report/ -mtime -10
 ./technical/911report//chapter-5.txt
 ./technical/911report//chapter-6.txt
 ~~~
-![Image](find-time2.png) 
-The above image show the use of the find command with another command of time where this line of command finds files that are modified within the last 10 days within the called directory. The line of command is called on the 911report directory where the command specified content that was modified in the last 10 days and the output is files that have been modified within the last 10 days. This is helpful for finding files when you don't know the exact name but you know approximately when you modified it.
+
+The above code show the use of the find command with another command of time where this line of command finds files that are modified within the last 10 days within the called directory. The line of command is called on the 911report directory where the command specified content that was modified in the last 10 days and the output is files that have been modified within the last 10 days. This is helpful for finding files when you don't know the exact name but you know approximately when you modified it.
 Cited source: https://tecadmin.net/linux-find-command-with-examples/
 
 
